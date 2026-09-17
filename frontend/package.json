@@ -1,0 +1,47 @@
+{
+  "name": "fitx",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.22-rc.20250304",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.0",
+    "@react-three/xr": "^6.6.27",
+    "@supabase/supabase-js": "^2.75.1",
+    "@tailwindcss/vite": "^4.1.14",
+    "axios": "^1.13.2",
+    "chart.js": "^4.5.1",
+    "compute-cosine-similarity": "^1.1.0",
+    "date-fns": "^4.1.0",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.546.0",
+    "react": "^19.1.1",
+    "react-chartjs-2": "^5.3.1",
+    "react-circular-progressbar": "^2.2.0",
+    "react-countdown-circle-timer": "^3.2.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.4",
+    "react-webcam": "^7.2.0",
+    "recharts": "^3.3.0",
+    "tailwindcss": "^4.1.14",
+    "three": "^0.181.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+  }
+}

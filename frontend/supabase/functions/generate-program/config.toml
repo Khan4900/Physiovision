@@ -1,0 +1,3 @@
+# Allow unauthenticated invocation (needed for browser CORS preflight OPTIONS)
+# You can switch this back to true and require auth later if desired.
+verify_jwt = false
